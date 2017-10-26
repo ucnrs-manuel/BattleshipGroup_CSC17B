@@ -1,0 +1,39 @@
+#dashboard-container {
+	background-color: #000;
+	/*border: 2px solid red;*/
+	height: 150px;
+	width: 100%;
+}
+
+#dashboard {
+	/*border: 2px solid black;*/
+	display: flex;
+	margin: 0px auto;
+	width: 32%;
+}
+
+#shipImage {
+	background-color: #f0ffff;
+	background-image: url("../shipImg/carrier.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	/*border: 2px solid blue;*/
+	border-radius: 20px;
+	height: 140px;
+	margin: 0px auto;
+	width: 70%;
+}
+
+#nextArrow {
+	/*border: 2px solid purple;*/
+	color: #fff;
+	font-size: 50px;
+	height: 50%;
+	margin-left: -15%;
+	margin-top: 10%;
+}
+
+#nextArrow:active {
+	transform: translateX(20px);
+}

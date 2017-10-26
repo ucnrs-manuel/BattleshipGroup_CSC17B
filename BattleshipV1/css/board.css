@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	height: 40px;
+	width: 50px;
+}
+
+#playerTable {
+	float: left;
+}
+
+#progressTable {
+	float: right;
+}
+
+.xAxis, .yAxis {
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+.waterCell {
+	background-image: url('../pic/oasis.png');
+}
+
+.waterCell:hover {
+	background: #F5FFFA;
+}
+
+/*
+#playerCell0 {
+	background-image: url('../pic/c1.png');
+}
+
+#playerCell10 {
+	background-image: url('../pic/c2.png');
+}
+
+#playerCell20 {
+	background-image: url('../pic/c3.png');
+}
+
+#playerCell30 {
+	background-image: url('../pic/c4.png');
+}
+
+#playerCell40 {
+	background-image: url('../pic/c5.png');
+}
+*/

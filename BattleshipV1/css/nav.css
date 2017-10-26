@@ -1,0 +1,59 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: inherit; 
+}
+
+/*side menu properties*/
+.sideNavClass {
+	background-color: #DCDCDC;
+	height: inherit;
+	left: 0px;	/*determines offset from left side of screen, when using position: relative*/
+	overflow-x: hidden; /*if elements/texts/links overflow, then scrollable might be enabled*/
+	padding-top: 50px;	/*position of links from the top of div*/
+	position: fixed; /*element is positioned to a fixed*/
+	transition: 0.5s; /*amount of time it takes to fill allocated space*/
+	top: 0px; 	/*determines offset from top side of screen, when using position: relative*/
+	width: 0px; /*initial width will be 0 because nav isnt clicked*/
+	z-index: 1; /*determines position/importance over other boxes*/
+}
+
+.sideNavClass a {
+	color: #000;
+	display: block; /*stacks links on top of each other*/
+	font-size: 30px; 
+	padding: 8px 8px 8px 30px; /*determines positions of links*/
+	text-decoration: none; /*no underlines on links*/
+	transition: 0.5s; /*hoverable color appears 0.5s after*/
+}
+
+.sideNavClass a:hover {
+	color: #1E90FF;
+}
+
+/* styles the X icon on div*/
+#timesIcon {
+	font-size: 50px;
+	margin-left: 50px; /*pushed entire timesIcon 50px left*/
+	/*positioned relative to its closest positioned ancestor if any*/
+	/*otherwise, it is placed relative to the initial containing block*/
+	position: absolute; 
+	right: 25px; /*used with position value like : absolute or relative*/
+	top: 0px;
+}
+
+#menuDiv {
+	float: left;	/*must float left to fit inside #head-container*/
+	height: 100px;
+	transition: margin-left 0.5s;
+	width: 5%;
+}
+
+#menuIcon {
+	color: #1E90FF;
+	cursor: pointer; /*displays hand cursor is over menu icon*/
+	font-size: 80px;
+	margin-left: 20px;
+}
