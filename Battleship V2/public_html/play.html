@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   
+<head>
+	<title>Play Battleship</title>
+	<script type="text/javascript" src="js/board.js"></script>
+	<script type="text/javascript" src="js/play.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/play.css">
+	<link type="text/css" rel="stylesheet" href="css/board.css">
+</head>
+<body>
+   
+	<div id="dashboard">
+		<p id="shipDetail">
+		</p>
+		<div id="shipImage">
+		</div>
+	</div>
+    <div id="backgroundID">
+    <p id="tempBackground"></p>
+    </div>
+    
+    <div id="grid1">
+        <p id="tempgrid"></p>
+    </div>
+ 
+    
+    <div id="backgroundMusic">
+        <audio id="myAudio" autoplay loop>
+ <source src="sounds/battleship.ogg"
+         type='audio/ogg; codecs=vorbis'>
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+        <button id="playSound"  type="button" onclick="aud_play_pause()" ><img id="playAudio" src="http://free-icon-download.com/modules/PDdownloads/images/screenshots/audio-volume-high-icon-download-free-royalty-free.png"></button>
+<script>
+function aud_play_pause() {
+  var myAudio = document.getElementById("myAudio");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
+  }
+}
+</script>
+    </div>
+</body>
+</html>
