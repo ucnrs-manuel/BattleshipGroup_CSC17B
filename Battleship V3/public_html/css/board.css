@@ -1,0 +1,145 @@
+/* everything  */
+* {
+    background: url('');
+    background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*  Cell Sizes */
+td{
+	height: 40px;
+	width: 50px;
+}
+/*  PLAYER 1 */
+#playerTable {
+	float: left;
+}
+/*  PLAYER 2 */
+#progressTable {
+	float: right;
+}
+/* 0-9 A-J */
+.xAxis, .yAxis {
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+}
+
+/*WATER BACKGROUND */
+.waterCell {
+	background-image: url('../pic/water.gif');
+}
+
+.waterCell:hover {
+	background-image: url('../pic/pin.png');
+}
+
+/* Carrier Ship DEMO */
+
+#waterCell10 {
+	background-image: url('../Carrier/c1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell20 {
+	background-image: url('../Carrier/c2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell30 {
+	background-image: url('../Carrier/c3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell40 {
+	background-image: url('../Carrier/c4.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell50 {
+	background-image: url('../Carrier/c5.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Battleship Ship DEMO */
+
+#waterCell12 {
+	background-image: url('../Battleship/b1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell22 {
+	background-image: url('../Battleship/b2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell32 {
+	background-image: url('../Battleship/b3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell42 {
+	background-image: url('../Battleship/b4.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Cruiser Ship DEMO */
+#waterCell14 {
+	background-image: url('../Cruiser/cr1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell24 {
+	background-image: url('../Cruiser/cr2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell34 {
+	background-image: url('../Cruiser/cr3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/* Submarine Ship DEMO */
+#waterCell16 {
+	background-image: url('../Submarine/s1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell26 {
+	background-image: url('../Submarine/s2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell36 {
+	background-image: url('../Submarine/s3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* DESTROYER SHIP DEMO */
+
+#waterCell18 {
+	background-image: url('../Destroyer/d1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#waterCell28 {
+	background-image: url('../Destroyer/d2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
