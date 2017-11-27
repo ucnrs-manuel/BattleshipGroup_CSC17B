@@ -1,0 +1,44 @@
+
+#dashboard {
+    background-image: url('../pic/Dashboard.jpg');
+    background-size: cover;
+	border: 3px solid black;
+	height: 150px;
+	
+}
+/* Temporary background holder */
+#backgroundID {
+   
+	height: 0px;
+	
+}
+
+#tempBackground{
+    
+    background-image: url('../pic/playBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 793px;
+	width: 100%;
+}
+/* where grid backgrounds will go 
+#grid1{
+    height: 0px;
+}
+#tempgrid{  
+    background-image: url('https://i.ebayimg.com/images/g/dj0AAOSw0RpXlwM9/s-l300.jpg');
+    background-repeat: no-repeat;
+    background-size:10%;
+	height: 797px;
+	width: 100%;
+}
+*/
+/*Audio icon button*/
+#playAudio
+{
+	top: 637px;
+	right: 12px;
+    position: absolute;
+    height: 50px;
+}
+
