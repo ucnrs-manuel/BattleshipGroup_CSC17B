@@ -1,0 +1,105 @@
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2% 30% 0% 30%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+label{
+    font-family: 'Work Sans', sans-serif;
+    text-align:center;
+    color:white;
+    font-size: 200%;
+}
+
+.questions{
+    font-family: Lucida Console, Courier, monospace;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    line-height: 2;
+}
+
+input[type=box], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#ask{
+    margin: 30%;
+}
+
+body {
+    background: url("../pic/navy.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: inherit;
+    font: 15px/1.5 Arial, Helvetica, Sans-Serif;
+    margin: 0;
+}
+
+.title{
+    background: activecaption !important;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: white;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.5;
+}
+
+ul{
+    color:whitesmoke;
+    opacity: 0.5;
+}
+
+.container{
+  margin: auto;
+  overflow: hidden;
+  width: 80%;
+}
+
+header{
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 5px solid;
+
+}
+
+header :hover{
+  color: #cccccc;
+  font-weight: bold;
+}
